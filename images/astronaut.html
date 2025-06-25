@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heartbeat Text</title>
+  <style>
+    a{
+      text-align: center;
+       color: rgb(165, 0, 110);
+    text-decoration:wavy;
+    box-shadow:3px 8px 4px 0px #240101;
+    padding: 2rem;
+    margin:  7rem;
+    font-weight: 1000;
+    transition: color 1.3s ease;
+    padding: 30px 30px 30px;
+    table-layout: fixed;
+    }
+    a :hover{
+      text-align: right;
+            height: 20px;
+            color: rgb(149, 227, 4);
+            border:5.0px double;
+      
+    }
+    body {
+      background: #ffe6eb;
+      background-image: url("https://marketplace.canva.com/EAFlzHFIFZw/1/0/1600w/canva-pastel-holographic-heart-desktop-wallpaper-NxGw36UXrdM.jpg");
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .heart {
+      font-size: 100px;
+      color: red;
+      animation: beat 1s infinite;
+      transform-origin: center;
+    }
+
+    .text {
+      margin-top: 20px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #ff0055;
+      animation: beatText 1s infinite;
+    }
+
+    @keyframes beat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      25% {
+        transform: scale(1.2);
+      }
+      50% {
+        transform: scale(0.95);
+      }
+      75% {
+        transform: scale(1.05);
+      }
+    }
+
+    @keyframes beatText {
+      0%, 100% {
+        transform: scale(1);
+        color: #ff0055;
+      }
+      25% {
+        transform: scale(1.1);
+        color: #ff3366;
+      }
+      50% {
+        transform: scale(0.95);
+        color: #cc0033;
+      }
+      75% {
+        transform: scale(1.05);
+        color: #ec0653;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="/images/yes.html">YES💗</a>
+    <a href="/images/no.html">NO💔</a>
+  </main>
+  <div class="heart">👨🏼‍🚀</div>
+  <div class="text">DO YOU LOVE ME ASTRONAUT? </div>
+</body>
+</html>

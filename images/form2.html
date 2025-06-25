@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lange=""en>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title> form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="images/HCOSC.html" method="get" autocomplete="on">
+        <label for="description">Describtion:</label><br/>
+        <texrareas id="description" name="message"  rows="20" cols="20">
+            This is cat
+        </texrareas><br/>
+        <button type="button" onclick="alert('You data is not submitted')"> Click me</button>
+
+    <label for="fname">First name</label>
+    <input type="text" id="fname"/>
+    <p>First name</p>
+    <input type="text" />
+    <label for="password"> Password</label>
+    <input type="password" id="password"/><br/>
+    <input type="radio" id="male" name="gender" value="male"/>
+    <label for="male"> Male</label></br>
+    <input type="radio" id="female" name="gender" value="female"/>
+    <label for="female"> Female</label></br>
+     <input type="radio" id="other" name="gender" value="other"/>
+    <label for="other"> other</label>
+
+    <label for="cars"> Choose a car:</label>
+   <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">saab</option>
+    <option value="audi">audi</option>
+   </select>
+<fieldset>
+    <legend>vehicle</legend>
+
+        <input type="checkbox" id="vehicle1" name="vechile1" value="bike">
+        <label for="vechile1">I have a bike</label><br>
+         <input type="checkbox" id="vehicle2" name="vechile2" value="car">
+        <label for="vechile2">I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vechile3" value="airplane">
+        <label for="vechile3">I have a airplane</label>
+        <br/>
+        </fieldset>
+<label for="file">Upload file</label>
+<input type="file" id="file"/>
+<label for="number">number of student</label>
+<input type="number" id="number"/>
+<label for="date">date</label>
+<input type="date" id="date"/>
+
+
+<br/>
+        <input type="submit" value="submit"/>
+        </form>
+</body>
+
+        
+        
+    
+
+</body>
+</html>
